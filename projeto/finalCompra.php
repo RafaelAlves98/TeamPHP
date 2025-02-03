@@ -19,20 +19,35 @@
       </nav>
     </header>
 
-    <main id="Completo">
-      <h1>Compra Efetuada com Sucesso!</h1>
-    </main>
     <?php
-    // Verifica se o nome foi enviado via POST
+    // Processamento primeiro, antes de qualquer HTML
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Obtém o nome do formulário
-        $nome = htmlspecialchars($_POST['nome']);
-        
-        // Exibe a mensagem de boas-vindas
-        echo "<h1>Olá, <strong>$nome</strong>! Sua compra foi concluída!</h1>";
+      $nome = htmlspecialchars($_POST['nome']);
+      $email = htmlspecialchars($_POST['email']);
+      $cpf = htmlspecialchars($_POST['cpf']);
+      $telefone = htmlspecialchars($_POST['telefone']);
+    
+      // Aqui você normalmente processaria os dados (salvar no banco, etc.)
+    
+      // Depois do processamento, exibir HTML
+    ?>
+
+    <main id="Completo">
+        <h1>Olá, <strong><?= $nome ?></strong>! Sua compra foi concluída!</h1>
+        <p>Detalhes da compra:</p>
+        <ul>
+            <li>Email: <?= $email ?></li>
+            <li>CPF: <?= $cpf ?></li>
+            <li>Telefone: <?= $telefone ?></li>
+        </ul>
+    </main>
+    
+    <button class="buy-button" onclick="window.location.href='/projeto/compra.php';">Voltar</button>
+
+    <?php
     } else {
-        // Se o formulário não foi enviado, exibe uma mensagem de erro
-        echo "<h1>Você não colocou seus dados.</h1>";
+      echo "<h1>Erro: Você não enviou os dados do formulário corretamente.</h1>";
+      echo "<button class='buy-button' onclick=\"window.location.href='/projeto/compra.php';\">Voltar</button>";
     }
     ?>
 
