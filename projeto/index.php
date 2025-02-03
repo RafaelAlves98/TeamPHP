@@ -11,7 +11,7 @@
       <nav>
         <div class="logo">Free Market</div>
         <div class="nav-links">
-          <a href="#home">Início</a>
+          <a href="/projeto/index.php">Início</a>
           <a href="#produtos">Produtos</a>
           <a href="#carrinho">Carrinho</a>
         </div>
