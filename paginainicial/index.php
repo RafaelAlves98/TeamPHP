@@ -38,7 +38,7 @@
               1TB, 12GB RAM, Tela 7.1" SuperAMOLED
             </p>
             <div class="product-price">R$ 10.599,00</div>
-            <button class="buy-button">Comprar</button>
+            <a button class="buy-button">Comprar</a>
           </div>
         </article>
 
@@ -55,7 +55,7 @@
               1TB SSD, Controle Sem Fio, 4K HDR, 60fps
             </p>
             <div class="product-price">R$ 3.999,00</div>
-            <button class="buy-button">Comprar</button>
+            <a button class="buy-button">Comprar</a>
           </div>
         </article>
 
@@ -72,7 +72,7 @@
               RTX 3050, i5 13420H, 8GB DDR5, 512GB SSD, FHD LED IPS 144hz
             </p>
             <div class="product-price">R$ 6.499,00</div>
-            <button class="buy-button">Comprar</button>
+            <a button class="buy-button">Comprar</a>
           </div>
         </article>
 
@@ -89,7 +89,7 @@
               Monitor Cardíaco, GPS, 7 dias bateria, IA integrada
             </p>
             <div class="product-price">R$ 2.299,00</div>
-            <button class="buy-button">Comprar</button>
+            <a button class="buy-button">Comprar</a>
           </div>
         </article>
       </div>
