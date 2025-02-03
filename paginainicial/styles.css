@@ -110,18 +110,24 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .nav-links {
-    display: none;
+  .banner-ofertas h1 {
+    font-size: 1.8em;
+    padding: 25px 15px;
   }
 
-  .products-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .banner-ofertas {
+    margin-top: 70px;
   }
 }
 
 @media (max-width: 480px) {
-  .products-grid {
-    grid-template-columns: 1fr;
+  .banner-ofertas h1 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+  }
+
+  .banner-ofertas {
+    padding: 25px 10px;
   }
 }
 
