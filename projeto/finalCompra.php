@@ -36,13 +36,13 @@
         <h1>Olá, <strong><?= $nome ?></strong>! Sua compra foi concluída!</h1>
         <p>Detalhes da compra:</p>
         <ul>
-            <li>Email: <?= $email ?></li>
-            <li>CPF: <?= $cpf ?></li>
-            <li>Telefone: <?= $telefone ?></li>
+            <li><strong> Email: </strong><?= $email ?></li>
+            <li><strong> CPF: </strong><?= $cpf ?></li>
+            <li><strong> Telefone: </strong><?= $telefone ?></li>
         </ul>
+
+        <button class="botao-volta" onclick="window.location.href='/projeto/compra.php';">Voltar</button>
     </main>
-    
-    <button class="buy-button" onclick="window.location.href='/projeto/compra.php';">Voltar</button>
 
     <?php
     } else {
@@ -50,8 +50,6 @@
       echo "<button class='buy-button' onclick=\"window.location.href='/projeto/compra.php';\">Voltar</button>";
     }
     ?>
-
-    <button class=".buy-button" onclick="window.location.href='/projeto/compra.php';">Voltar</button>
 
     <footer>
       <p>&copy; 2025 Free Market - Todos os Direitos Reservados</p>
