@@ -133,15 +133,15 @@ footer {
 
 /* Banner Ofertas */
 .banner-ofertas {
-  background-color: #ffd700;
+  background-color: #000;
   text-align: center;
-  padding: 40px 20px;
+  padding: 40px 70px;
   margin-top: 80px; /* Ajuste para não sobrepor o header fixo */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .banner-ofertas h1 {
-  color: #333;
+  color: #fff200;
   font-size: 2.5em;
   text-transform: uppercase;
   letter-spacing: 2px;
