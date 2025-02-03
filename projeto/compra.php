@@ -31,7 +31,7 @@
         <input type="tel" id="telefone" name="telefone" />
         <button
           id="envio"
-          onclick="window.location.href='/vendaefetuada/finalCompra.html';"
+          onclick="window.location.href='/projeto/finalCompra.php';"
         >
           Enviar
         </button>

@@ -36,7 +36,7 @@
     }
     ?>
 
-    <button class=".buy-button" onclick="window.location.href='/paginacompra/compra.html';">Voltar</button>
+    <button class=".buy-button" onclick="window.location.href='/projeto/compra.php';">Voltar</button>
 
     <footer>
       <p>&copy; 2025 Free Market - Todos os Direitos Reservados</p>
