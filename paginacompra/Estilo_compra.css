@@ -27,22 +27,17 @@ input:focus {
 }
 
 #envio {
-  background: #007bff;
+  background-color: #007bff;
   color: white;
-  padding: 12px 25px;
   border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 #envio:hover {
-  background: #2980b9;
-  transform: translateY(-2px);
-}
-
-#envio:active {
-  transform: translateY(0);
+  background-color: #0056b3;
 }
