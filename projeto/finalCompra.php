@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/Página Inicial/styles.css" />
+    <link rel="stylesheet" href="/projeto/estilo/styles.css" />
   </head>
 
   <body>
@@ -36,7 +36,7 @@
     }
     ?>
 
-    <button onclick="window.location.href='/paginacompra/compra.html';">Voltar</button>
+    <button class=".buy-button" onclick="window.location.href='/paginacompra/compra.html';">Voltar</button>
 
     <footer>
       <p>&copy; 2025 Free Market - Todos os Direitos Reservados</p>

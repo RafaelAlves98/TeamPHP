@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Free Market</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/projeto/estilo/styles.css" />
   </head>
   <body>
     <header>
@@ -27,7 +27,7 @@
         <!-- Produto 1 -->
         <article class="product-card">
           <img
-            src="resources/s25.webp"
+            src="/projeto/resources/s25.webp"
             alt="Samsung Galaxy S25 Ultra"
             class="product-image"
           />
@@ -44,7 +44,7 @@
         <!-- Produto 2 -->
         <article class="product-card">
           <img
-            src="resources/ps5.webp"
+            src="/projeto/resources/ps5.webp"
             alt="PlayStation 5"
             class="product-image"
           />
@@ -61,7 +61,7 @@
         <!-- Produto 3 -->
         <article class="product-card">
           <img
-            src="resources/nitro.webp"
+            src="/projeto/resources/nitro.webp"
             alt="Notebook Acer Nitro"
             class="product-image"
           />
@@ -78,7 +78,7 @@
         <!-- Produto 4 -->
         <article class="product-card">
           <img
-            src="resources/watch7.jpg"
+            src="/projeto/resources/watch7.jpg"
             alt="Samsung Galaxy Watch 7"
             class="product-image"
           />

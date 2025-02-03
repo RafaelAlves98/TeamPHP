@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Compra</title>
-    <link rel="stylesheet" href="/paginacompra/Estilo_compra.css" />
-    <link rel="stylesheet" href="/paginainicial/styles.css" />
+    <link rel="stylesheet" href="/projeto/estilo/Estilo_compra.css" />
+    <link rel="stylesheet" href="/projeto/estilo/styles.css" />
   </head>
   <body>
     <header>
