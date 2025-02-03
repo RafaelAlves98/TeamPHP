@@ -18,6 +18,11 @@
       </nav>
     </header>
 
+    <section class="banner-ofertas">
+        <h1>Ofertas da Semana</h1>
+    </section>
+
+
     <main>
       <div class="products-grid">
         <!-- Produto 1 -->
