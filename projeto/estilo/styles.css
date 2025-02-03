@@ -5,6 +5,11 @@
   font-family: "Arial", sans-serif;
 }
 
+body{
+  height: auto;
+  width: 100%;
+}
+
 /* Header */
 header {
   background-color: #fff200;
